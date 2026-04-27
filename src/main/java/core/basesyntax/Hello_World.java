@@ -3,9 +3,9 @@ package core.basesyntax;
 import java.time.LocalDate;
 
 /**
- * The Hello_World class demonstrates common checkstyle violations fixes.
+ * The HelloWorld class demonstrates common checkstyle violations fixes.
  */
-public class Hello_World {
+public class HelloWorld {
     private String stringA;
     private int variable;
     private int age;
@@ -36,7 +36,7 @@ public class Hello_World {
         stringA = "Hello mates!";
         System.out.println(stringA);
         variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        System.out.println("It is " + variable + " year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
